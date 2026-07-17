@@ -1,4 +1,6 @@
-# 📊 Invoice Intelligence System
+# 📊 Vendor Invoice Intelligence System
+
+> 🚀 End-to-end Machine Learning platform for freight cost prediction and invoice risk detection using FastAPI, Streamlit, Scikit-learn, and SQLite.
 
 An end-to-end Machine Learning application that predicts freight costs and identifies vendor invoices requiring manual review. The system integrates Machine Learning, FastAPI, SQLite, and Streamlit to provide procurement teams with intelligent decision support through an interactive analytics dashboard.
 
@@ -103,11 +105,11 @@ Predict whether an invoice should be flagged for manual review.
 # 📂 Project Structure
 
 ```
-Invoice-Intelligence-System/
+vendor-invoice-intelligence-system/
 
 ├── api/
 ├── dashboard/
-├── data/
+├── data/                  # Dataset directory (not included in repository)
 ├── freight_cost_prediction/
 ├── inference/
 ├── invoice_flagging/
@@ -117,6 +119,15 @@ Invoice-Intelligence-System/
 ├── requirements.txt
 └── .gitignore
 ```
+---
+
+# 📁 Dataset
+
+The project uses a procurement invoice dataset stored in a SQLite database for model training and evaluation.
+
+> **Note:** The original dataset (`inventory.db`) is not included in this repository because it exceeds GitHub's file size limit (100 MB).
+
+The trained machine learning models are included, allowing the application to perform predictions without requiring model retraining.
 
 ---
 
@@ -226,13 +237,13 @@ POST /analyze
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/vendor-invoice-intelligence-system.git
+git clone https://github.com/TwinkleK05/vendor-invoice-intelligence-system.git
 ```
 
 Navigate to the project
 
 ```bash
-cd Invoice-Intelligence-System
+cd vendor-invoice-intelligence-system
 ```
 
 Install the required packages

@@ -54,4 +54,4 @@ dist/
 # ==========================
 # Streamlit Secrets
 # ==========================
-.streamlit/secrets.toml
+.streamlit/secrets.tomldata/inventory.db
