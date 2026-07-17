@@ -1,0 +1,218 @@
+
+/*==================================================
+GOOGLE FONT
+==================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+/*==================================================
+GLOBAL
+==================================================*/
+
+html,
+body,
+[class*="css"]{
+    font-family: "Palatino Linotype", serif;
+}
+
+.stApp{
+    background:#0B1220;
+    color:#F8FAFC;
+}
+
+/* Hide Streamlit Branding */
+
+#MainMenu,
+header,
+footer{
+    visibility:hidden;
+}
+
+/*==================================================
+SIDEBAR
+==================================================*/
+
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid #23324A;
+}
+
+section[data-testid="stSidebar"] *{
+    color:#F8FAFC;
+}
+
+/*==================================================
+HEADINGS
+==================================================*/
+
+h1{
+    color:#FFFFFF !important;
+    font-size:46px !important;
+    font-weight:800 !important;
+}
+
+h2{
+    color:#FFFFFF !important;
+    font-size:34px !important;
+    font-weight:700 !important;
+}
+
+h3{
+    color:#FFFFFF !important;
+    font-size:28px !important;
+    font-weight:700 !important;
+}
+
+p{
+    color:#CBD5E1;
+}
+
+/*==================================================
+CARDS
+==================================================*/
+
+div[data-testid="stVerticalBlockBorderWrapper"]{
+    background:#162033;
+    border:1px solid #243247;
+    border-radius:18px;
+    padding:22px;
+}
+
+/*==================================================
+METRICS
+==================================================*/
+
+div[data-testid="metric-container"]{
+    background:transparent;
+    border:none;
+    box-shadow:none;
+    padding:0;
+}
+
+div[data-testid="metric-container"] label{
+    color:#94A3B8 !important;
+    font-size:15px !important;
+    font-weight:600;
+}
+
+div[data-testid="metric-container"] [data-testid="stMetricValue"]{
+    color:white;
+    font-size:36px !important;
+    font-weight:800;
+}
+
+/*==================================================
+BUTTON
+==================================================*/
+
+.stButton button{
+    width:100%;
+    height:56px;
+    border:none;
+    border-radius:14px;
+    background:linear-gradient(135deg,#2563EB,#3B82F6);
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    transition:0.25s;
+}
+
+.stButton button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 30px rgba(37,99,235,.35);
+}
+
+/*==================================================
+INPUT
+==================================================*/
+
+.stNumberInput input{
+    background:#111827 !important;
+    color:white !important;
+    border:1px solid #243247 !important;
+    border-radius:12px !important;
+}
+
+/*==================================================
+CAPTION
+==================================================*/
+
+div[data-testid="stCaptionContainer"]{
+    color:#94A3B8;
+    font-size:14px;
+}
+
+/*==================================================
+DIVIDER
+==================================================*/
+
+hr{
+    border-color:#243247;
+}
+
+/*==================================================
+PLOTLY
+==================================================*/
+
+.js-plotly-plot{
+    border-radius:18px;
+}
+
+/*==================================================
+EXECUTIVE SUMMARY
+==================================================*/
+
+.stSuccess,
+.stError{
+
+    border-radius:14px;
+
+}
+
+.stMetric{
+
+    padding-top:8px;
+
+}
+/*==================================================
+KPI CARDS
+==================================================*/
+
+div[data-testid="metric-container"]{
+
+    background:transparent;
+
+    border:none;
+
+    box-shadow:none;
+
+    padding:0;
+
+}
+
+div[data-testid="metric-container"] label{
+
+    font-size:15px !important;
+
+    font-weight:600 !important;
+
+    color:#94A3B8 !important;
+
+}
+
+div[data-testid="metric-container"] [data-testid="stMetricValue"]{
+
+    color:#FFFFFF !important;
+
+    font-size:34px !important;
+
+    font-weight:800 !important;
+
+}
+
+div[data-testid="stCaptionContainer"]{
+
+    color:#94A3B8;
+
+    font-size:13px;
+
+}
