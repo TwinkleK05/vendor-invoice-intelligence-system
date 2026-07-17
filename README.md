@@ -280,14 +280,13 @@ streamlit run app.py
 
 ---
 
-# Live Demo
+## Live Demo
 
-Deployment is currently in progress.
+### Dashboard
+https://vendor-invoice-intelligence-system-4.onrender.com
 
-Future deployment will include:
-
-- Streamlit Dashboard
-- FastAPI REST API
+### API Documentation
+https://vendor-invoice-intelligence-system-3.onrender.com/docs
 
 ---
 
