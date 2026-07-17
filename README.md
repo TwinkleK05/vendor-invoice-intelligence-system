@@ -1,6 +1,6 @@
 # 📊 Vendor Invoice Intelligence System
 
-> 🚀 End-to-end Machine Learning platform for freight cost prediction and invoice risk detection using FastAPI, Streamlit, Scikit-learn, and SQLite.
+>  End-to-end Machine Learning platform for freight cost prediction and invoice risk detection using FastAPI, Streamlit, Scikit-learn, and SQLite.
 
 An end-to-end Machine Learning application that predicts freight costs and identifies vendor invoices requiring manual review. The system integrates Machine Learning, FastAPI, SQLite, and Streamlit to provide procurement teams with intelligent decision support through an interactive analytics dashboard.
 
@@ -14,9 +14,9 @@ The Invoice Intelligence System automates these tasks using Machine Learning mod
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
-### 🚚 Freight Cost Prediction
+### Freight Cost Prediction
 
 Predict the expected freight cost of an invoice using procurement data such as:
 
@@ -34,7 +34,7 @@ Predict the expected freight cost of an invoice using procurement data such as:
 
 ---
 
-### 🚩 Invoice Risk Detection
+###  Invoice Risk Detection
 
 Predict whether an invoice should be flagged for manual review.
 
@@ -61,7 +61,7 @@ Predict whether an invoice should be flagged for manual review.
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```
                     Historical Procurement Data
@@ -102,7 +102,7 @@ Predict whether an invoice should be flagged for manual review.
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 vendor-invoice-intelligence-system/
@@ -121,7 +121,7 @@ vendor-invoice-intelligence-system/
 ```
 ---
 
-# 📁 Dataset
+# Dataset
 
 The project uses a procurement invoice dataset stored in a SQLite database for model training and evaluation.
 
@@ -131,7 +131,7 @@ The trained machine learning models are included, allowing the application to pe
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 ### Programming Language
 
@@ -160,7 +160,7 @@ The trained machine learning models are included, allowing the application to pe
 
 ---
 
-# 🤖 Machine Learning Models
+# Machine Learning Models
 
 ## Regression
 
@@ -197,7 +197,7 @@ Used for invoice risk detection.
 
 ---
 
-# 📸 Dashboard
+# Dashboard
 
 ## Invoice Analysis
 
@@ -254,7 +254,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 ### Start the FastAPI Backend
 
@@ -280,7 +280,7 @@ streamlit run app.py
 
 ---
 
-# 🌐 Live Demo
+# Live Demo
 
 Deployment is currently in progress.
 
@@ -291,7 +291,7 @@ Future deployment will include:
 
 ---
 
-# 🚀 Future Enhancements
+# Future Enhancements
 
 - Cloud Deployment
 - Docker Support
@@ -302,7 +302,7 @@ Future deployment will include:
 
 ---
 
-# 💡 Skills Demonstrated
+# Skills Demonstrated
 
 - Machine Learning
 - Regression
@@ -320,7 +320,7 @@ Future deployment will include:
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Twinkle Kolluri**
 
@@ -330,6 +330,6 @@ Interested in Machine Learning, Data Science, Artificial Intelligence, and Backe
 
 ---
 
-## ⭐ Support
+## Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
