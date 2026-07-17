@@ -4,15 +4,14 @@ import joblib
 import pandas as pd
 from pathlib import Path
 
-from schemas import (
+from api.schemas import (
     FreightPredictionRequest,
     FreightPredictionResponse,
     AnalyzeRequest,
     AnalyzeResponse,
 )
 
-from analyze import analyze_invoice
-
+from api.analyze import analyze_invoice
 # =====================================================
 # APP
 # =====================================================
